@@ -286,13 +286,18 @@ main {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: var(--themeColor);
+    background-color: var(--sideBGColor);
     z-index: -1;
     transition: 1s;
 }
 
+#about button:hover {
+    color: var(--bgColor);
+}
+
 #about button:hover .overlay{
     width: 100%;
+    color: var(--bgColor);
 }
 
 #about .about-col {
@@ -835,6 +840,10 @@ main {
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
+}
+
+#contact .contact-row .contact-right form input:hover {
+    background-color: var(--sideBGColor);
 }
 
 /* ----------------- end service section --------------- */
