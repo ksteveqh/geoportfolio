@@ -264,15 +264,17 @@ main {
 
 #about a{
     text-decoration: none;
+    color: var(--sideBGColor);
 }
 
 #about button {
+
     cursor: pointer;
     background-color: transparent;
     border: 2px solid var(--sideBGColor);
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 70px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: var(--sideBGColor);
@@ -291,7 +293,7 @@ main {
     transition: 1s;
 }
 
-#about button:hover {
+#about a:hover {
     color: var(--bgColor);
 }
 
@@ -548,7 +550,6 @@ main {
     font-weight: 500;
     font-style: italic;
     margin-bottom: 15px;
-
 }
 
 #summary .summary-row .summary-cols .my-edu span + p + p {
@@ -583,13 +584,21 @@ main {
     font-style: italic;
 }
 
+#summary .summary-row .summary-cols .pro-exp p + p {
+    color: var(--textColor);
+    font-size: 15px ;
+    font-weight: 500;
+    font-style: none;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
 #summary .summary-row .summary-cols .pro-exp ul li {
     margin: 10px 0;
     margin-left: 20px;
     color: var(--textColor);
     font-size: 15px;
     font-weight: 500;
-
 }
 
 /* ============ end summary section ============ */
